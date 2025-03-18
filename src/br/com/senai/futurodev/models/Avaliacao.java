@@ -9,5 +9,4 @@ public class Avaliacao {
     private int chegarTransportPublico;
     private int idAreaVerde;
 
-
 }

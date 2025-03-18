@@ -4,7 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LocalizacaoRepository {
-    private static final List<Localizacao> LOCALIZACAO = new ArrayList<>();
+    private static final List<Localizacao> LOCALIZACOES = new ArrayList<>();
 
+    public void inserir (Localizacao novaLocalizacao){
+        novaLocalizacao.setId(LOCALIZACOES.size() + 1);
+        LOCALIZACOES.add(novaLocalizacao);
+    }
+
+    public Localizacao buscar(int idLocalizacao){
+        for (Localizacao localizacao : LOCALIZACOES) {
+            if (idLocalizacao == localizacao.getId()){
+                return localizacao;
+            }
+        }
+        return null;
+    }
 
 }
