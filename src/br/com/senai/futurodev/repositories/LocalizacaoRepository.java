@@ -11,6 +11,11 @@ public class LocalizacaoRepository {
         LOCALIZACOES.add(novaLocalizacao);
     }
 
+    public static List<Localizacao> listaTodos(){
+        List<Localizacao> listaTodos = new ArrayList<>(LOCALIZACOES);
+        return listaTodos;
+    }
+
     public Localizacao buscar(int idLocalizacao){
         for (Localizacao localizacao : LOCALIZACOES) {
             if (idLocalizacao == localizacao.getId()){

@@ -5,6 +5,12 @@ public class Localizacao {
     private String coordenadasGeagraficas;
     private int idAreaVerde;
 
+    public Localizacao(int id, String coordenadasGeagraficas, int idAreaVerde) {
+        this.id = id;
+        this.coordenadasGeagraficas = coordenadasGeagraficas;
+        this.idAreaVerde = idAreaVerde;
+    }
+
     public int getId() {
         return id;
     }
@@ -31,10 +37,10 @@ public class Localizacao {
 
     @Override
     public String toString() {
-        return "Localizacao{" +
-                "id=" + id +
-                ", coordenadasGeagraficas='" + coordenadasGeagraficas + '\'' +
-                ", idAreaVerde=" + idAreaVerde +
+        return "Localizacao: {" +
+                "id: " + id +
+                ", coordenadasGeagraficas: " + coordenadasGeagraficas +
+                ", idAreaVerde: " + idAreaVerde +
                 '}';
     }
 }
