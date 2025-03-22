@@ -5,9 +5,8 @@ public class Localizacao {
     private String coordenadasGeagraficas;
     private int idAreaVerde;
 
-    public Localizacao( String coordenadasGeagraficas, int idAreaVerde) {
+    public Localizacao( String coordenadasGeagraficas) {
         this.coordenadasGeagraficas = coordenadasGeagraficas;
-        this.idAreaVerde = idAreaVerde;
     }
 
     public Localizacao() {
@@ -42,7 +41,6 @@ public class Localizacao {
         return "Localizacao: {" +
                 "id: " + id +
                 ", coordenadasGeagraficas: " + coordenadasGeagraficas +
-                ", idAreaVerde: " + idAreaVerde +
-                '}';
+                "}";
     }
 }

@@ -9,12 +9,14 @@ public class Avaliacao {
     private int chegarTransportPublico;
     private int idAreaVerde;
 
-    public Avaliacao( int quantidadeArvora, int qualidadeAr, int ausenciaPoluicaoSonora, int coletaResiduos, int chegarTransportPublico) {
+
+    public Avaliacao( int quantidadeArvora, int qualidadeAr, int ausenciaPoluicaoSonora, int coletaResiduos, int chegarTransportPublico, int idAreaVerde) {
         this.quantidadeArvora = quantidadeArvora;
         this.qualidadeAr = qualidadeAr;
         this.ausenciaPoluicaoSonora = ausenciaPoluicaoSonora;
         this.coletaResiduos = coletaResiduos;
         this.chegarTransportPublico = chegarTransportPublico;
+        this.idAreaVerde = idAreaVerde;
     }
 
     public Avaliacao() {}
