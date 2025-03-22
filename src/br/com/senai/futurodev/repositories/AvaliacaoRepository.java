@@ -11,6 +11,7 @@ public class AvaliacaoRepository {
 
     public void inserir(Avaliacao novaAvaliacao){
         novaAvaliacao.setId(AVALIACAOES.size() + 1);
+        AVALIACAOES.add(novaAvaliacao);
     }
 
     public static List<Avaliacao> listaTodos(){
@@ -21,7 +22,7 @@ public class AvaliacaoRepository {
     public Avaliacao buscar(int idAvaliacao){
         for (Avaliacao avaliacao : AVALIACAOES) {
             if (idAvaliacao == avaliacao.getId()){
-                return avaliacao;
+                return   avaliacao;
             }
         }
         return null;

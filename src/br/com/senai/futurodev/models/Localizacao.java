@@ -5,10 +5,12 @@ public class Localizacao {
     private String coordenadasGeagraficas;
     private int idAreaVerde;
 
-    public Localizacao(int id, String coordenadasGeagraficas, int idAreaVerde) {
-        this.id = id;
+    public Localizacao( String coordenadasGeagraficas, int idAreaVerde) {
         this.coordenadasGeagraficas = coordenadasGeagraficas;
         this.idAreaVerde = idAreaVerde;
+    }
+
+    public Localizacao() {
     }
 
     public int getId() {
