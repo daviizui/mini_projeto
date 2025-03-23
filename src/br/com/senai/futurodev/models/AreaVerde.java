@@ -109,7 +109,7 @@ public class AreaVerde {
                 ", localizacao: " + localizacao + " " +
                 ", tipoDeVegetacao: " + tipoDeVegetacao + " " +
                 ", horarioFuncionamento: " + horarioFuncionamento + " " +
-                ", atividadesDisponiveis: " + atividadesDisponiveis +
+                ", atividadesDisponiveis: " + atividadesDisponiveis + " " +
                 "}";
     }
 }
