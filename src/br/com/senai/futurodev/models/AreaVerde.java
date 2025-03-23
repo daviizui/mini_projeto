@@ -97,19 +97,19 @@ public class AreaVerde {
                 "nome: " + this.nome + " " +
                 ", tipo vegetação: " + this.tipoDeVegetacao + " " +
                 ", média das avaliações: " + mediaTodasAvaliacoes() + " " +
-                ", id:" + this.id +
+                ", id:" + this.id + " " +
                 "}";
     }
 
 
     public String detalhe() {
         return "Área Verde: {" +
-                "id: " + id +
+                "id: " + id + " " +
                 ", nome: " + nome + " " +
                 ", localizacao: " + localizacao + " " +
                 ", tipoDeVegetacao: " + tipoDeVegetacao + " " +
                 ", horarioFuncionamento: " + horarioFuncionamento + " " +
-                ", atividadesDisponiveis: " + atividadesDisponiveis + " " +
+                ", atividadesDisponiveis: " + atividadesDisponiveis +   " " +
                 "}";
     }
 }
